@@ -1,4 +1,4 @@
-* {
+* {line-height:normal;
   font-family: sans-serif;
 }
 
@@ -30,7 +30,6 @@ section {
 }
 
 img {
-  border: 5px solid #8075ff;
 }
 
 h1,
@@ -39,7 +38,7 @@ h3,
 h4,
 h5 {
   /*Purple*/
-  color: #6320ee;
+  color: #6f20ee;
   margin-bottom: 1em;
 }
 
@@ -75,8 +74,8 @@ footer {
   justify-content: space-between;
 }
 
-.introduction {
-}
+.introduction {font-family: sans-serif;
+text-align: center;background-color: #f8f0fb;}
 
 #badge {
   height: 120px;
@@ -85,10 +84,11 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 14px;
   right: 20px;
 
   display: flex;
+  transition: alt 2s ease;
   justify-content: center;
   align-content: center;
   flex-direction: column;
@@ -105,27 +105,27 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 5px solid #d7ee0b;
 }
 
 .image-container img:first-of-type {
   vertical-align: bottom;
 }
-
+h4 {color:#56e39f; font-family: sans-serif;}
 .tigers {
   background-color: #0b3c49;
-  color: #f0e100;
+  color: #BEEE62;
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483C46;
   color: #56e39f;
 }
-
+.Textouno{font-size: 25px;}
 .giraffe h2 {
   color: #ef6f6c;
 }
-
+.Textodos{color:#F4743B}
 .card {
   display: inline-block;
   background-color: white;
@@ -166,23 +166,29 @@ footer {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 10px ;
 }
+
 
 .education-container h3,
 .education-container p {
   margin-bottom: 1em;
 }
-
+#oso1 {border: 5px solid; color: #F4743B;}
+#oso2 {border: 5px solid; color: #2d08ce;}
+#oso3 {border: 5px solid; color: #dfee12;}
 /*Membership*/
 
 .membership {
   text-align: center;
-  background-color: #fffffc;
+  background-color: #fffffc;max-width: 700px;
+  margin-inline: auto;
 }
 
 .membership h2 {
-  color: #ff3f00;
-}
+  color: #ff3f00; max-width: 700px;margin-inline: auto;
+
+text-align: auto }
 
 .membership strong {
   color: #ff7f11;
@@ -191,5 +197,6 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: block; inline-block;
+  padding: 10px;margin: 5px; height: 100px;
 }
